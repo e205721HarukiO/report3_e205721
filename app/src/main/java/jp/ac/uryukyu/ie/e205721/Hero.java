@@ -50,12 +50,24 @@ public class Hero {
             System.out.printf("勇者%sは道半ばで力尽きてしまった。\n", name);
         }
     }
+    /**
+     * 他のクラスからnameにアクセスするメソッド
+     * @return name 名前
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * 他のクラスからdeadにアクセスするメソッド
+     * @return dead 死亡判定
+     */
     public boolean getDead(){
         return this.dead;
     }
+    /**
+     * 他のクラスからhitPointにアクセスするメソッド
+     * @return hitPoint HP(体力)
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }

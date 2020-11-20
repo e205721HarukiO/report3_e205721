@@ -53,10 +53,17 @@ public class Enemy {
             System.out.printf("モンスター%sは倒れた。\n", name);
         }
     }
-
+    /**
+     * 他のクラスからnameを取得するメソッド。
+     * @return name 名前
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * 他のクラスからdeadを取得するメソッド
+     * @return dead 死亡判定
+     */
     public boolean getDead(){
         return this.dead;
     }
